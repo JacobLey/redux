@@ -2,7 +2,8 @@
   "name": "redux-error-reproduction",
   "description": "Mini-package to show example of typescript being unable to export the result of `combineReducers`",
   "scripts": {
-    "start": "npm ci && tsc"
+    "start": "npm ci && tsc",
+    "tsc": "tsc"
   },
   "dependencies": {
     "redux": "file:..",
